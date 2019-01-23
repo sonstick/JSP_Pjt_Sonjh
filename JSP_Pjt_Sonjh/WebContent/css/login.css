@@ -1,0 +1,196 @@
+@charset "UTF-8";
+
+#mask {
+	position: absolute;
+	z-index: 9000;
+	background-color: #000;
+	display: none;
+	left: 0;
+	top: 0;
+}
+
+.window ul li {
+	margin: 5px 0;
+}
+
+.window {
+	display: none;
+	position: relative;
+	left: 0;
+	top: 0;
+	z-index: 10000;
+}
+
+.login_wrap {
+	width: 100%;
+	position: relative;
+	top: 200px;
+	left: 0;
+	color: #333;
+}
+
+.login_window {
+	width: 500px;
+	height: 270px;
+	margin: 0 auto;
+	border-radius: 20px;
+	background: #fff;
+	box-shadow: 10px 10px 30px rgba(0, 0, 0, .3);
+}
+
+.login_wrap form {
+	position: relative;
+	top: 20px;
+	padding: 20px;
+	width: 420px;
+	height: 190px;
+	margin: 0 auto;
+	border: 1px solid #ddd;
+	border-radius: 8px;
+}
+
+.login_window ul {
+	width: 300px;
+	margin-top: 10px;
+}
+
+.login_window ul li {
+	float: none;
+	display: inline-block;
+}
+
+.login_wrap fieldset {
+	width: 300px;
+	margin: 0 auto;
+}
+
+.login_wrap legend {
+	margin-bottom: 10px;
+	font-weight: 600;
+	font-size: 24px
+}
+
+.login_wrap li {
+	margin: 5px;
+}
+
+.login_wrap span {
+	width: 80px;
+	display: block;
+	float: left;
+	font-size: 18px;
+}
+
+.login_wrap input {
+	width: 200px;
+	height: 24px;
+	background: #efefef;
+	padding: 1px 5px;
+	border: 1px solid #ccc
+}
+
+.login_wrap input:focus {
+	background: #ddd;
+}
+
+.login_wrap input[type=text], .login_wrap input[type=password] {
+	font-size: 12px;
+}
+
+.signin {
+	padding: 20px 0 0 50px;
+}
+
+.signin input {
+	width: 100px;
+	height: 36px;
+	margin: 10px 10px 0 0;
+	float: left;
+	display: block;
+	background: #2ba4c8;
+	color: #fff;
+	font-weight: 400;
+	border-radius: 8px;
+	border: solid 1px rgba(0, 0, 0, 0.2);
+	cursor: pointer;
+}
+
+.signin input:hover {
+	font-weight: 600;
+	opacity: 0.7;
+}
+
+.signin span {
+	width: 100px;
+	height: 26px;
+	background: #2ba4c8;
+	border-radius: 8px;
+	display: table-cell;
+	vertical-align: middle;
+	margin: 10px 10px 0 0;
+	padding-top: 8px;
+	font-size: 16px;
+	text-align: center;
+	border: solid 1px rgba(0, 0, 0, 0.2);
+}
+
+.signin span a {
+	color: #fff;
+	font-weight: 400;
+}
+
+.signin span a:hover {
+	font-weight: 600;
+}
+
+.pwd_request input {
+	width: 70px;
+	height: 36px;
+	background: #2ba4c8;
+	border-radius: 8px;
+	display: table-cell;
+	vertical-align: middle;
+	margin: 10px 10px 0 0;
+	font-size: 16px;
+	text-align: center;
+	border: solid 1px rgba(0, 0, 0, 0.2);
+}
+
+.pwd_request {
+	width: 100px;
+	height: 26px;
+}
+
+.pwd_request input {
+	color: #fff;
+	font-weight: 400;
+	cursor: pointer;
+}
+
+.pwd_request input:hover {
+	font-weight: 600;
+}
+
+.login_wrap .close {
+	position: relative;
+	left: 0;
+	top: 45px;
+	width: 500px;
+	height: 32px;
+	background: #555;
+	color: #fff;
+	font-weight: 400;
+	border-radius: 8px;
+	border: solid 1px rgba(255, 255, 255, .3);
+	box-shadow: 10px 10px 30px rgba(0, 0, 0, .3);
+	cursor: pointer;
+}
+
+.login_wrap .close:hover {
+	background: rgba(96, 96, 96, .9);
+}
+
+.pwd_confirm {
+	width: 100%;
+	margin-bottom: 20px;
+}

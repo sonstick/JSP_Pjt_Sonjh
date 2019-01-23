@@ -1,0 +1,244 @@
+table {
+	width: 100%;
+	border-collapse: collapse;
+}
+
+th, td {
+	padding: 0 20px;
+	text-align: center;
+}
+
+th {
+	text-align: left;
+}
+
+.board {
+	background-color: #fff;
+	width: 900px;
+	min-height: 600px;
+	margin: 0 auto;
+	padding: 30px 0 50px 0;
+}
+
+.board h2 {
+	font-size: 24px;
+	font-weight: 600;
+	color: #555;
+}
+
+.board a {
+	text-decoration: none;
+	color: #333;
+	opacity: 1;
+}
+
+.board a:hover {
+	opacity: 0.9;
+	font-weight: 600;
+	color: #367fa9;
+}
+
+.board_info {
+	border-bottom: 2px solid #777;
+	padding: 0 20px 5px 20px;
+    margin: 30px 0 0 0;
+}
+
+.board_title {
+	float: left;
+}
+
+.board_sub {
+	float: right;
+	font-size: 14px;
+	font-weight: 400;
+	position: relative;
+	top: 12px;
+}
+
+.board_head {
+	position: relative;
+	width: 100%;
+	height: 55px;
+	top: 0;
+	left: 0;
+	border-bottom: 2px dotted rgba(0, 0, 0, .2);
+	/* border-top: 2px dotted rgba(0, 0, 0, .2); */
+}
+
+.board_content {
+	min-height: 600px;
+	padding: 20px;
+}
+
+.board table {
+	border-spacing: 2px;
+	border-color: grey;
+}
+
+.board table th {
+	font-size: 14px;
+	font-weight: 600;
+	color: #3a93b2;
+	line-height: 1.4;
+	background-color: transparent;
+	padding-top: 18px;
+	padding-bottom: 18px;
+	text-align: center;
+}
+
+.board tbody {
+	max-height: 600px;
+	position: relative;
+}
+
+.board tbody tr {
+	border-bottom: 1px solid #f2f2f2;
+}
+
+.board tbody tr td {
+	font-size: 14px;
+	color: #808080;
+	line-height: 1.4;
+	padding-top: 16px;
+	padding-bottom: 16px;
+}
+
+.board_pager {
+	margin-top: 470px;
+}
+
+.board_footer li {
+	float: right;
+	margin-left: 10px;
+	text-align: center;
+	display: inline-block;
+}
+
+.board_footer li a, .board_footer li input[type=submit], .board_footer li input[type=button], .cmt input[type=submit] {
+	border-radius: 5px;
+	padding: 8px;
+	color: #fff;
+	background: #367fa9;
+	opacity: .8;
+}
+
+.board_footer li a:hover, .board_footer li input[type=submit]:hover, .board_footer li input[type=button]:hover, .cmt input[type=submit]:hover {
+	color: #fff;
+	opacity: 1;
+}
+
+.board_footer input[type=submit], .board_footer input[type=button] {
+	cursor: pointer;
+}
+
+.board_title_option {
+	font-size: 12px;
+	font-weight: 400;
+	margin-right: 10px;
+}
+
+.board_info label {
+	font-weight: 400;
+	font-size: 18px;
+}
+
+.board_info input[type=text]:focus {
+	background: #ddd;
+}
+
+.board_info input[type=text] {
+	background: #efefef;
+	border: 1px solid #ccc;
+	padding: 5px;
+	font-size: 14px;
+	width: 580px;
+	font-weight: 400;
+}
+
+.board_info input[type=text]::placeholder {
+	color: #aaa;
+	font-size: 14px;
+	font-weight: 400;
+}
+
+/* 
+.board_content ul {
+	width: 600px;
+	margin: 0 auto;
+}
+ */
+ 
+.board_content li {
+	display: inline-block;
+	margin: 20px 0;
+}
+
+.board_content li:last-child {
+	margin-left: 150px;
+}
+
+.board_content input[type=text], .board_content input[type=password] {
+	background: #efefef;
+	border: 1px solid #ccc;
+	padding: 5px;
+	font-size: 14px;
+	font-weight: 400;
+}
+
+.board_content input[type=text]::placeholder, .board_content input[type=password]::placeholder {
+	color: #aaa;
+	font-size: 14px;
+	font-weight: 400;
+}
+
+.board_content textarea {
+	background: #efefef;
+	border: 1px solid #ccc;
+	padding: 5px;
+	font-size: 14px;
+	width: 100%;
+	min-height: 560px;
+}
+
+.board_content textarea:focus {
+	background: #ddd;
+}
+
+.board_content textarea::placeholder {
+	color: #aaa;
+	font-size: 14px;
+}
+
+.cmt textarea {
+	background: #efefef;
+	border: 1px solid #ccc;
+	padding: 5px;
+	font-size: 14px;
+	width: 100%;
+	margin-bottom: 30px;
+	min-height: 60px;
+}
+
+.cmt textarea:focus {
+	background: #ddd;
+}
+
+.cmt textarea::placeholder {
+	color: #aaa;
+	font-size: 14px;
+}
+
+.cmt input[type=submit] {
+	position: relative;
+    top: 28px;
+    background: #555;
+}
+
+.cmt_view {
+	margin-top: 50px;
+	background: #efefef;
+	border: 1px solid #ccc;
+	border-radius: 10px;
+	padding: 10px;
+}

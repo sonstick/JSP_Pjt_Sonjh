@@ -1,0 +1,81 @@
+@charset "UTF-8";
+
+footer {
+	width: 1000px;
+	height: 310px;
+	margin: 30px auto;
+	overflow: hidden;
+	background: #3a93b2 url(../images/footer_bg.jpg) no-repeat;
+	box-shadow: 0 10px 30px rgba(0, 0, 0, .3);
+}
+
+footer div:first-child {
+	width: 200px;
+}
+
+footer div {
+	float: left;
+	height: 250px;
+	border: 1px solid #cccccc;
+	box-sizing: border-box;
+}
+
+footer div:nth-child(2) {
+	width: 500px;
+}
+
+footer div:nth-child(3) {
+	width: 300px;
+}
+
+footer div:last-child {
+	width: 1000px;
+	height: 60px;
+	margin: auto 0;
+	color: #ffffff;
+	text-align: center;
+	line-height: 60px;
+	clear: both;
+	border: 0;
+}
+
+footer .office_logo img {
+	width: 100px;
+	margin: 80px 0 0 50px;
+}
+
+footer .office_logo a:hover {
+	opacity: 0.7;
+}
+
+footer .office_address {
+	padding: 50px 20px 20px 20px;
+	color: #fff;
+	opacity: 0.8;
+	line-height: 28px;
+}
+
+footer .shopping_info {
+	padding: 20px;
+}
+
+footer .shopping_info p {
+	margin-top: 20px;
+	font-size: 24px;
+	font-weight: 600;
+	color: #fff;
+}
+
+footer .shopping_info img {
+	margin-top: 20px;
+	width: 260px;
+	box-shadow: 10px 10px 30px rgba(0, 0, 0, .3);
+}
+
+footer .copyright {
+	background: #3a93b2 url(../images/footer_bg_copyright.png) no-repeat
+}
+
+footer .copyright a {
+	color: #fff;
+}

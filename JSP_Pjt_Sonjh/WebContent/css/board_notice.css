@@ -1,0 +1,40 @@
+.column1 {
+	width: 8%;
+}
+
+.column2 {
+	width: 9%;
+}
+
+.column3 {
+	width: 10%;
+}
+
+.column4 {
+	width: 39%;
+}
+
+.column5 {
+	width: 12%;
+}
+
+.column6 {
+	width: 20%
+}
+
+thead .column4 {
+	text-align: center;
+}
+
+tbody .column4 {
+	text-align: left;
+}
+
+.column6 {
+	width: 20%;
+}
+
+table td:nth-child(4) {
+	text-align: left;
+	padding-left: 50px;
+}

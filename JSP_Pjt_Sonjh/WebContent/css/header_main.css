@@ -1,0 +1,147 @@
+@charset "UTF-8";
+
+.gnb {
+	width: 100%;
+	height: 32px;
+	background: #333;
+	position: absolute;
+	color: #fff;
+}
+
+.gnb ul {
+	width: 970px;
+	margin: 0 auto;
+	padding: 6px;
+}
+
+.gnb ul li {
+	display: inline-block;
+	float: right;
+	margin-left: 20px;
+}
+
+.gnb ul li:last-child {
+	margin: 0;
+}
+
+.gnb ul li a {
+	color: #fff;
+}
+
+.gnb ul li a:hover {
+	font-weight: 600;
+}
+
+header {
+	width: 100%;
+	height: 500px;
+	box-shadow: 0 10px 30px rgba(0, 0, 0, .3);
+	position: relative;
+	top: 32px;
+	z-index: 99;
+}
+
+header li {
+	list-style: none;
+}
+
+header .header {
+	width: 100%;
+	height: 114px;
+	background: rgba(0, 0, 0, .3);
+	border-bottom: 1px solid rgba(255, 255, 255, .3);
+	position: relative;
+	top: -560px;
+	z-index: 99;
+}
+
+header .header_wrap {
+	width: 1000px;
+	margin: 0 auto;
+}
+
+.slider div {
+	height: 500px;
+	overflow:hidden;
+}
+
+.zoomin_main {
+	-webkit-animation: zoomin 12s ease-in infinite;
+}
+
+@-webkit-keyframes zoomin {
+    0% {
+    	transform: scale(1.0);
+    	-webkit-transform: scale(1.0);
+    }
+    50% {
+	    transform: scale(1.1);
+	    -webkit-transform: scale(1.1);
+    }
+    100% {
+	    transform: scale(1.0);
+	    -webkit-transform: scale(1.0);
+    }
+}
+
+header .logo {
+	width: 300px;
+	height: 50px;
+	line-height: 50px;
+	position: relative;
+	text-align: center;
+	top: 30px;
+}
+
+header .logo a:hover {
+	opacity: 0.8;
+}
+
+header nav ul {
+	width: 680px;
+	position: relative;
+	left: 320px;
+	bottom: 13px;
+}
+
+header nav li {
+	float: right;
+	text-align: center;
+	margin: 0 20px;
+}
+
+header nav li:first-child {
+	margin: 0 0 0 20px;
+}
+
+
+header nav a {
+	display: block;
+	color: #fff;
+	font-weight: 600;
+	font-size: 1.4em;
+	margin: 10px 15px;
+	opacity: 1;
+	text-shadow: 2px 2px 1px rgba(0, 0, 0, .9);
+	/*padding: 10px 30px;*/
+	/*border: 1px solid #cccccc;*/
+	/*background:#fff;*/
+}
+
+header nav a:hover {
+	font-weight: 600;
+	transition: 0.1s;
+	color: #ffd555;
+}
+
+header .logo span {
+	display: none;
+}
+
+header nav .logon a {
+	border-bottom: 1px solid #fff;
+}
+
+header nav .logon a:hover {
+	transition: 0.1s;
+}

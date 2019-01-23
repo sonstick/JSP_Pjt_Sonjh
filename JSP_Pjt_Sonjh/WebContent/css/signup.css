@@ -1,0 +1,167 @@
+h2 {
+	font-size: 30px;
+	font-weight: 600;
+}
+
+h3 {
+	font-size: 24px;
+	font-weight: 600;
+	margin-bottom: 20px;
+	color: #333;
+}
+
+li {
+	display: inline-block;
+}
+
+.container {
+	width: 930px;
+	margin: 40px auto;
+	border: 1px solid #ccc;
+	padding: 36px;
+	background: #fff;
+	border-radius: 20px;
+	box-shadow: 0 10px 30px rgba(0, 0, 0, .1);
+}
+
+.container hr {
+	margin: 20px 0;
+}
+
+.signup_wrap {
+	min-height: 420px;
+	overflow: auto;
+	overflow-x: hidden;
+	padding-top: 40px;
+}
+
+.signup_div {
+	width: 412px;
+	float: left;
+}
+
+.signup_div_right_col {
+	margin: 58px 0 0 106px;
+}
+
+.signup_div_notnull {
+	clear: both;
+	width: 100%;
+	padding-top: 100px;
+}
+
+.signup_div_notnull input {
+	width: 774px !important;
+}
+
+label {
+	width: 150px;
+	font-size: 18px;
+}
+
+.label {
+	width: 110px;
+	display: inline-block;
+}
+
+/* 
+.container ul li:nth-child(odd), .container ul li:nth-child(2n+1) {
+    padding-bottom: 32px;
+}
+
+.container ul li:nth-child(even), .container ul li:nth-child(2n+0),
+	.container ul li:nth-child(2n) {
+	padding-bottom: 32px;
+}
+*/
+
+.signup_ul input[type=text], .signup_ul input[type=password], .signup_ul input[type=email] {
+	width: 256px;
+	height: 18px;
+	padding: 15px;
+	margin: 5px 0 5px 10px;
+	display: inline-block;
+	border: none;
+	background: #f1f1f1;
+	font-size: 14px;
+}
+
+.signup_ul input[type=text]:focus, .signup_ul input[type=password]:focus {
+	background-color: #ddd;
+	outline: none;
+}
+
+hr {
+	border: 1px solid #f1f1f1;
+	margin-bottom: 25px;
+}
+
+.button {
+	clear: both;
+	padding-top: 50px;
+}
+
+.button input {
+	color: white;
+	padding: 14px 20px;
+	margin: 8px 0;
+	border: none;
+	cursor: pointer;
+	width: 50%;
+	opacity: 0.9;
+}
+
+.button input:hover {
+	opacity: 1;
+	transition: 0.1s;
+}
+
+.signupbtn {
+	background-color: #367fa9;
+	border-radius: 10px 0 0 10px;
+}
+
+.cancelbtn {
+	padding: 14px 20px;
+	background-color: #c11300;
+	border-radius: 0 10px 10px 0;
+}
+
+.cancelbtn, .signupbtn {
+	float: left;
+	width: 50%;
+}
+
+.signup_wrap h3 {
+	margin-bottom: 30px;
+}
+
+.signup_wrap h3 span {
+	font-size: 16px;
+	margin-left: 32px;
+}
+
+.signup_wrap h3 a {
+	color: #777;
+	border-bottom: 1px solid #777;
+}
+
+.signup_wrap h3 a:hover {
+	color: #333;
+}
+
+.confirmbtn {
+	background-color: #367fa9;
+	width: 88px;
+	height: 48px;
+	color: #fff;
+	border-radius: 5px;
+	font-size: 16px;
+	cursor: pointer;
+	margin-left: 3px;
+}
+
+.confirmbtn:hover {
+	opacity: .8;
+	font-weight: 600;
+}
